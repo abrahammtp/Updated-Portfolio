@@ -1,0 +1,63 @@
+/*This container works across all 3 html files, so the styling applies to all of them*/
+
+.container {
+    width: auto;
+    max-width: 900px;
+    padding: 0 15 35 15px;
+    background-color: rgba(40, 39, 46, 0.9);
+    color: white;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    text-align: justify;
+    height: auto;
+    font-size: 14px;
+    margin-top: 30px;
+    max-height: 500px;
+  }
+
+  /*This is is picture I used on the index.html file*/
+
+  .profile-pic {
+      width: 200px;
+      height: 200px;
+      margin-left: 15px;
+      margin-top: 7px;
+  }
+
+  /* h1 is the "About Me" title used on index.html*/
+  
+  h2 {
+      margin-left: 20px;
+      margin-top: 30px;
+      text-align: center
+  }
+
+/*This image is going to be applied to the whole body of the website, that way it covers the entirety of it*/
+
+body {
+      background-image: url(http://images.faena.com/wp-content/uploads/sites/4/2015/10/cruzdiez2.jpg);
+      height: 100%;
+  }
+
+/*The footer is going to be the same across all 3 html files*/
+
+  footer {
+    background-color: rgba(40, 39, 46);
+    color: silver;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+
+/*These images are the ones used on the portfolio page*/
+
+.work img {
+    width: 130px;
+    height: 130px;  
+}
+ 
+.work {
+  margin-left: 80px;
+  padding-bottom: 20px;
+}
